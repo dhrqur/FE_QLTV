@@ -1,50 +1,70 @@
 # Frontend - Hệ thống Quản lý Thư viện
 
-## 1. Giới thiệu
+## Giới thiệu
 
-Đây là phần giao diện của hệ thống Quản lý Thư viện, được xây dựng bằng ReactJS và Vite. Frontend dùng để hiển thị giao diện, xử lý thao tác người dùng và gọi API từ Backend.
+Frontend của **Hệ thống Quản lý Thư viện** được xây dựng bằng **ReactJS** và **Vite**, cung cấp giao diện trực quan cho việc quản lý thư viện. Hệ thống hỗ trợ các chức năng quản lý sách, độc giả, nhân viên, mượn trả sách và các danh mục liên quan.
 
-## 2. Công nghệ sử dụng
+Frontend có nhiệm vụ hiển thị giao diện người dùng, xử lý thao tác trên trình duyệt và kết nối với Backend thông qua RESTful API để thực hiện các chức năng quản lý dữ liệu.
 
-- ReactJS
-- Vite
-- Tailwind CSS
-- React Router
-- Lucide React
-- Sonner Toast
-- shadcn/ui
+---
 
-## 3. Chức năng chính
+## Công nghệ sử dụng
 
-- Đăng nhập hệ thống
-- Phân quyền người dùng
-- Dashboard tổng quan
-- Quản lý sách
-- Quản lý độc giả
-- Quản lý nhân viên
-- Quản lý tác giả
-- Quản lý thể loại
-- Quản lý nhà xuất bản
-- Quản lý kệ sách
-- Quản lý khoa, lớp
-- Quản lý ngôn ngữ
-- Quản lý thẻ thư viện
-- Quản lý mượn trả sách
-- Quản lý chi tiết mượn trả
-- Tìm kiếm, thêm, sửa, xóa dữ liệu
-- Hiển thị thông báo thao tác
+* ReactJS
+* Vite
+* Tailwind CSS
+* React Router DOM
+* Lucide React
+* Sonner Toast
+* shadcn/ui
 
-## 4. Tài khoản đăng nhập mẫu
+---
+
+## Chức năng chính
+
+* Đăng nhập hệ thống
+* Phân quyền người dùng (Quản lý, Thủ thư)
+* Dashboard tổng quan
+* Quản lý sách
+* Quản lý độc giả
+* Quản lý nhân viên
+* Quản lý tác giả
+* Quản lý thể loại
+* Quản lý nhà xuất bản
+* Quản lý kệ sách
+* Quản lý khoa
+* Quản lý lớp
+* Quản lý ngôn ngữ
+* Quản lý thẻ thư viện
+* Quản lý phiếu mượn
+* Quản lý chi tiết mượn trả
+* Tìm kiếm dữ liệu
+* Thêm, sửa, xóa dữ liệu
+* Hiển thị trạng thái và thông báo thao tác
+
+---
+
+## Tài khoản đăng nhập mẫu
+
+### Quản lý
 
 ```txt
-Quản lý:
 Username: admin
 Password: 123456
+```
 
-Thủ thư:
+### Thủ thư
+
+```txt
 Username: thuthu
 Password: 123456
-##5. Cấu trúc thư mục
+```
+
+---
+
+## Cấu trúc thư mục
+
+```txt
 FE_QLTV/
 ├── public/
 ├── src/
@@ -67,29 +87,60 @@ FE_QLTV/
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
-##6. Cài đặt
+```
 
-Yêu cầu cần có Node.js và npm.
+---
+
+## Cài đặt và chạy dự án
+
+### Yêu cầu
+
+* Node.js >= 18
+* npm >= 9
 
 Kiểm tra phiên bản:
 
+```bash
 node -v
 npm -v
+```
 
-Clone project:
+### Clone dự án
 
-git clone <link-repository-frontend>
+```bash
+git clone <link-repository>
 cd FE_QLTV
+```
 
-Cài thư viện:
+### Cài đặt thư viện
 
+```bash
 npm install
-##7. Chạy project
+```
 
-Chạy ở môi trường phát triển:
+### Chạy môi trường phát triển
 
+```bash
 npm run dev
+```
 
-Sau đó mở trình duyệt tại:
+Sau khi chạy thành công, mở trình duyệt tại:
 
+```txt
 http://localhost:5173
+```
+
+---
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## Nhóm thực hiện
+
+**Nhóm 7 - 74DCHT23**
+
+Dự án được thực hiện phục vụ học phần phát triển ứng dụng web, với mục tiêu xây dựng hệ thống quản lý thư viện hoàn chỉnh theo mô hình Client - Server.
