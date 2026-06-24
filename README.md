@@ -3,9 +3,6 @@
 ## Giới thiệu
 
 Frontend của **Hệ thống Quản lý Thư viện** được xây dựng bằng **ReactJS** và **Vite**, cung cấp giao diện trực quan cho việc quản lý thư viện. Hệ thống hỗ trợ các chức năng quản lý sách, độc giả, nhân viên, mượn trả sách và các danh mục liên quan.
-
-Frontend có nhiệm vụ hiển thị giao diện người dùng, xử lý thao tác trên trình duyệt và kết nối với Backend thông qua RESTful API để thực hiện các chức năng quản lý dữ liệu.
-
 ---
 
 ## Công nghệ sử dụng
