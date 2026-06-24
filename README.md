@@ -1,16 +1,95 @@
-# React + Vite
+# Frontend - Hệ thống Quản lý Thư viện
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. Giới thiệu
 
-Currently, two official plugins are available:
+Đây là phần giao diện của hệ thống Quản lý Thư viện, được xây dựng bằng ReactJS và Vite. Frontend dùng để hiển thị giao diện, xử lý thao tác người dùng và gọi API từ Backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 2. Công nghệ sử dụng
 
-## React Compiler
+- ReactJS
+- Vite
+- Tailwind CSS
+- React Router
+- Lucide React
+- Sonner Toast
+- shadcn/ui
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 3. Chức năng chính
 
-## Expanding the ESLint configuration
+- Đăng nhập hệ thống
+- Phân quyền người dùng
+- Dashboard tổng quan
+- Quản lý sách
+- Quản lý độc giả
+- Quản lý nhân viên
+- Quản lý tác giả
+- Quản lý thể loại
+- Quản lý nhà xuất bản
+- Quản lý kệ sách
+- Quản lý khoa, lớp
+- Quản lý ngôn ngữ
+- Quản lý thẻ thư viện
+- Quản lý mượn trả sách
+- Quản lý chi tiết mượn trả
+- Tìm kiếm, thêm, sửa, xóa dữ liệu
+- Hiển thị thông báo thao tác
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 4. Tài khoản đăng nhập mẫu
+
+```txt
+Quản lý:
+Username: admin
+Password: 123456
+
+Thủ thư:
+Username: thuthu
+Password: 123456
+5. Cấu trúc thư mục
+FE_QLTV/
+├── public/
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   ├── pages/
+│   ├── routes/
+│   ├── utils/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── components.json
+├── eslint.config.js
+├── index.html
+├── jsconfig.json
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+6. Cài đặt
+
+Yêu cầu cần có Node.js và npm.
+
+Kiểm tra phiên bản:
+
+node -v
+npm -v
+
+Clone project:
+
+git clone <link-repository-frontend>
+cd FE_QLTV
+
+Cài thư viện:
+
+npm install
+7. Chạy project
+
+Chạy ở môi trường phát triển:
+
+npm run dev
+
+Sau đó mở trình duyệt tại:
+
+http://localhost:5173
