@@ -44,7 +44,7 @@ Password: 123456
 Thủ thư:
 Username: thuthu
 Password: 123456
-5. Cấu trúc thư mục
+##5. Cấu trúc thư mục
 FE_QLTV/
 ├── public/
 ├── src/
@@ -67,7 +67,7 @@ FE_QLTV/
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
-6. Cài đặt
+##6. Cài đặt
 
 Yêu cầu cần có Node.js và npm.
 
@@ -84,7 +84,7 @@ cd FE_QLTV
 Cài thư viện:
 
 npm install
-7. Chạy project
+##7. Chạy project
 
 Chạy ở môi trường phát triển:
 
